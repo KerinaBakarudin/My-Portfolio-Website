@@ -1,0 +1,318 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body.home{
+    background: linear-gradient(to right, #167aec, #feffd0);
+    background-size: cover;
+}
+
+.box{
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+
+.box img{
+    display: block;
+    margin-left: 280px;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.namaku{
+    font-size: 40px;
+}
+
+.skill{
+    font-size: 25px;
+}
+
+.box span p {
+    margin: 5px 0;
+}
+
+
+.btnabout{
+    display: inline-block;
+    width: 150px;
+    padding: 10px 20px; 
+    background-color: rgb(0, 53, 83);
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btnabout:hover{
+    background-color: #00194f; 
+}
+
+
+nav{
+    display: flex; 
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.navigasi{
+    color: #fdff94;
+}
+
+nav ul{
+    list-style-type: none; 
+    display: flex; 
+}
+
+nav li{
+    margin-right: 20px; 
+}
+
+nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black; 
+    padding: 10px;
+    border-radius: 5px; 
+    background-color: rgb(125, 220, 255); 
+}
+
+nav li a:hover{
+    background-color: #98bed6; 
+}
+
+.contact{
+    background: linear-gradient(to right, #167aec, #feffd0);
+}
+
+.contactInfo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactItem{
+    width: 100%;
+    max-width: 820px;
+    height: 460px;
+    background-color: azure;
+    border-radius: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.contactForm{
+    background: azure;
+}
+
+.contactIcons{
+    background: rgb(167, 230, 255);
+}
+
+form {
+    margin: 0;
+    padding: 20px;
+}
+  
+.contactForm h2{
+    padding-left: 50px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: rgb(44, 65, 77);
+}
+  
+.inputBox {
+    margin-bottom: 20px;
+}
+  
+label {
+    display: block;
+    padding-top: 15px;
+    font-weight: bold;
+    color: rgb(44, 65, 77);
+}
+  
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #007ba0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+  
+textarea {
+    height: 60px;
+}
+  
+input[type="submit"] {
+    margin-top: 10px;
+    width: 50%;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 110, 174);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+  
+input[type="submit"]:hover {
+    background-color: rgb(0, 144, 227);
+}
+  
+
+.inputBox{
+    padding-left: 50px;
+}
+
+.contactIcons img{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 300px;
+}
+
+.connect{
+    padding-left: 150px;
+    font-size: 14px;
+    font-weight: medium;
+}
+
+.icon{
+    display: flex;
+    padding-left: 110px;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.icon li {
+    margin-right: 15px; 
+}
+
+
+ion-icon {
+    font-size: 25px;
+    color: rgb(0, 95, 150);
+  }
+
+.portfolio{
+    background: linear-gradient(to right, #167aec, #feffd0);
+}
+
+.box-portfolio{
+    width: 1000px;
+    background-color: azure;
+    border-radius: 30px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.portfolio-design{
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-gap: 10px; 
+    align-items: center;
+}
+
+.portfolio-illustration{
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-gap: 10px; 
+    align-items: center;
+}
+
+.portfolio-painting{
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-gap: 10px; 
+    align-items: center;
+}
+
+
+.grid-item img {
+    width: 100%; 
+    height: auto; 
+}
+
+.box-portfolio h2{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgb(0, 42, 67);
+}
+
+.about{
+    background: linear-gradient(to right, #167aec, #feffd0);
+}
+
+.aboutme {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutbg{
+    width: 100%;
+    max-width: 820px;
+    height: 460px;
+    background-color: azure;
+    border-radius: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.aboutread{
+    background: azure;
+}
+
+.aboutstatus{
+    background: rgb(167, 230, 255);
+}
+
+.aboutread img{
+    height: 250px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.aboutread p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.aboutstatus img{
+    height: 170px;
+    padding-left: 100px;
+}
+
+.aboutstatus h2{
+    padding-left: 30px;
+}
+
+.aboutstatus p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
